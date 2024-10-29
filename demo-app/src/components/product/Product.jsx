@@ -12,7 +12,7 @@ const Product = () => {
 
   const cards = products.map((product) => (
     <div className="mt-4 col-md-3 d-flex justify-content-center">
-      <Card style={{ width: "18rem", height: "500px", marginBottom:"40px" }}>
+      <Card key={product.id} style={{ width: "18rem", height: "500px", marginBottom:"40px" }}>
         <div className="text-center p-3">
           <Card.Img
             variant="top"
