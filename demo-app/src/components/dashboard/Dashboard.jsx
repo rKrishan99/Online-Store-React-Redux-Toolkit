@@ -5,7 +5,6 @@ import Product from '../product/Product'
 const Dashboard = () => {
   return (
     <div>
-        <NavBar/>
         <Product/>
     </div>
   )
